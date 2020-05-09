@@ -1,5 +1,25 @@
 # Level 12: Readonly
 
 ```typescript
-type T16<K extends (...args: any) => any> = Readonly<K>;
+interface MutableOptions {
+  mode: string;
+  volume: number;
+  isElevated: boolean;
+}
+
+interface ReadonlyOptions {
+  readonly mode: string;
+  readonly volume: number;
+  readonly isElevated: boolean;
+}
+```
+
+```typescript
+interface MutableOptions {
+  mode: string;
+  volume: number;
+  isElevated: boolean;
+}
+
+type ReadonlyOptions = Readonly<MutableOptions>;
 ```

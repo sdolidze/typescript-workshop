@@ -1,5 +1,9 @@
 # Level 09: Parameters
 
 ```typescript
-type T13<K extends (...args: any) => any> = Parameters<K>;
+function repeat(pattern: string, count: number): string {
+  return "";
+}
+
+type P = Parameters<typeof repeat>;
 ```

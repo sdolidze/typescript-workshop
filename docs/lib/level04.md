@@ -1,5 +1,9 @@
 # Level 04: ReturnType
 
 ```typescript
-type T04<T extends (...args: any) => any> = ReturnType<T>;
+function repeat(pattern: string, count: number): string {
+  return "";
+}
+
+type R = ReturnType<typeof repeat>;
 ```
