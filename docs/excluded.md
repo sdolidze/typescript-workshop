@@ -5,3 +5,5 @@
 - Const enums
 - Generics
 - Type guards and type assertions
+- Destructuring
+- Intersection type
