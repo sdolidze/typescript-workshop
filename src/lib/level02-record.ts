@@ -34,7 +34,7 @@ namespace Level02B {
     Cheese = "Cheese",
   }
 
-  // Try to comment one item
+  // HINT: Try to comment one item
   const inventory: Record<FoodType, number> = {
     [FoodType.Banana]: 1,
     [FoodType.Tomato]: 2,

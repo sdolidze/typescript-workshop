@@ -27,7 +27,7 @@ namespace Level04A {
 
 namespace Level04B {
   interface LargeObject {
-    // Comment this property and see what happens to `SlimObject`
+    // HINT: Comment this property and see what happens to `SlimObject`
     property01: string;
     property02: string;
     property03: string;
@@ -38,7 +38,7 @@ namespace Level04B {
     property08: string;
     property09: string;
     property10: string;
-    // Comment this property and see what happens to `SlimObject`
+    // HINT: Comment this property and see what happens to `SlimObject`
   }
 
   type SlimObject = Pick<LargeObject, "property01" | "property02">;
