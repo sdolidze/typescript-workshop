@@ -7,3 +7,4 @@
 - Type guards and type assertions
 - Destructuring
 - Intersection type
+- `never` type

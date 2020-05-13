@@ -25,7 +25,7 @@ namespace Level09B {
     isElevated?: boolean;
   }
 
-  const optionalOptions = {
+  const optionalOptions: OptionalOptions = {
     // HINT: try to comment one property and see what happens
     mode: "default",
     volume: 50,
