@@ -2,14 +2,14 @@
 
 ```typescript
 interface Rectangle {
-  type: 'Rectangle';
+  type: "Rectangle";
   color: string;
   height: number;
   width: number;
 }
 
 interface Circle {
-  type: 'Circle';
+  type: "Circle";
   color: string;
   radius: number;
 }
@@ -19,15 +19,22 @@ type Shape = Rectangle | Circle;
 
 ```typescript
 class Shape {
-  color: string;
+  constructor(public color: string) {}
 }
 
 class Rectangle extends Shape {
-  height: number;
-  width: number;
+  constructor(
+    public color: string,
+    public height: number,
+    public width: number
+  ) {
+    super(color);
+  }
 }
 
 class Circle extends Shape {
-  radius: number;
+  constructor(public color: string, public radius: number) {
+    super(color);
+  }
 }
 ```

@@ -9,7 +9,7 @@ enum Direction {
 
 ```typescript
 enum Direction {
-  Up = 'Up',
-  Down = 'Down',
+  Up = "Up",
+  Down = "Down",
 }
 ```
