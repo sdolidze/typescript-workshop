@@ -18,7 +18,7 @@ type Shape = Rectangle | Circle;
 ```
 
 ```typescript
-class Shape {
+abstract class Shape {
   constructor(public color: string) {}
 }
 
