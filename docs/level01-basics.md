@@ -1,6 +1,6 @@
 # Basics
 
-## Explicit types
+## Explicit type
 
 ```typescript
 const name: string = "John";
