@@ -27,8 +27,8 @@ function totalCost(itemPrice: number, fee: PaymentFee): number {
 const costA = totalCost(100, { type: "FixedFee", fixed: 10 });
 const costB = totalCost(100, { type: "VariableFee", multiplier: 0.05 });
 
-console.log(costA);
-console.log(costB);
+console.log(costA); // prints 110
+console.log(costB); // prints 105
 ```
 
 ## Part 2
