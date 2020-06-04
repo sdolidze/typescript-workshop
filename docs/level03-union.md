@@ -1,12 +1,18 @@
-# Level 03: Does this code compile?
+# Union
+
+## A
 
 ```typescript
-const a: string | number = 'John';
+const a: string | number = "John";
 ```
+
+## B
 
 ```typescript
 const b: string | number = 27;
 ```
+
+## C
 
 ```typescript
 const c: string | number = true;
