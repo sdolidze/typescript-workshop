@@ -3,7 +3,7 @@
 ## Explicit type
 
 ```typescript
-const name: string = "John";
+const firstName: string = "John";
 ```
 
 ## Type inference
